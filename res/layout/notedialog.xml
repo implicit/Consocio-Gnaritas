@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="wrap_content" android:layout_height="wrap_content"
+ android:orientation="vertical">
+ 
+
+ <ScrollView android:layout_height="wrap_content" android:id="@+id/ndScrollView1" android:layout_width="fill_parent">
+     <LinearLayout android:id="@+id/ndLinearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+		<ImageView android:id="@+id/ImageView01" android:src="@drawable/notes"
+		 android:layout_width="wrap_content" android:layout_marginBottom="14dip" android:layout_centerHorizontal="true" android:layout_height="wrap_content"/>
+		 
+		 <TextView android:text="Note ID: " android:id="@+id/nDialogId"
+		 android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		 
+		 <TextView android:text="Date: " android:id="@+id/nDialogDate"
+		 android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		 
+		 <TextView android:text="Time: " android:id="@+id/nDialogTime"
+		 android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		 
+		 <TextView android:text="Text: " android:id="@+id/nDialogText"
+		 android:layout_width="wrap_content" android:layout_height="wrap_content" />     
+     </LinearLayout>
+ </ScrollView>
+ 
+ 
+</LinearLayout>

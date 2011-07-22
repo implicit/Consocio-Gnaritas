@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent" android:layout_height="wrap_content"
+ android:orientation="vertical">
+ 
+ <ScrollView android:layout_height="wrap_content" android:id="@+id/scrollView1" android:layout_width="fill_parent">
+	<LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+		<ImageView android:id="@+id/searchImageView01" android:src="@drawable/searches"
+	 	android:layout_width="wrap_content" android:layout_marginBottom="14dip" android:layout_centerHorizontal="true" android:layout_height="wrap_content"/>
+	    
+		 <TextView android:text="Query: " android:id="@+id/searchDialogQuery"
+		 android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		 
+		 <TextView android:text="Source: " android:id="@+id/searchDialogSource"
+		 android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		 
+		 <TextView android:text="Date: " android:id="@+id/searchDialogDate"
+		 android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		 
+		 <TextView android:text="Time: " android:id="@+id/searchDialogTime"
+		 android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		 
+		 <TextView android:text="URL: " android:id="@+id/searchDialogURL"
+		 android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/blueline"/>
+	</LinearLayout>
+</ScrollView>
+    
+   
+ 
+</LinearLayout>

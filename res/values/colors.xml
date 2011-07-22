@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color
+        name="lightGreen">#E0F8E0
+    </color>
+    
+    <color
+    	name="black">#000000
+    </color>
+    
+    <color
+    	name="white">#FFFFFF</color>
+    <color
+    	name="gray">#EBECEB</color>
+    <color
+    	name="newGreen">#DAF7D4</color>
+    <color
+    	name="darkGrey">#B1B2B1</color>
+    	
+    <color
+    	name="blueline">#58ACFA</color>
+    	
+    <color name="greenline">#2EFE2E</color>
+    
+    <color name="fontheaders">#04B45F</color>
+    
+    <color name="random">#404944</color>
+</resources>

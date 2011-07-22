@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	android:id="@+id/widget29"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical" 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/white">
+	<RelativeLayout 
+		android:id="@+id/widget86"
+		android:layout_width="fill_parent" 
+		android:background="@color/random" 
+		android:layout_height="40dip">
+		<TextView 
+			android:id="@+id/homeUsernameText" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_alignParentLeft="true"
+			android:text="Hi, " 
+			android:textColor="@color/white"
+			android:layout_marginLeft="5dip"
+			android:textSize="15sp" 
+			android:layout_marginTop="8dip">
+			</TextView>
+		<TableRow 
+			android:orientation="vertical"
+			android:background="@color/lightGreen"
+			android:saveEnabled="true" 
+			android:layout_width="1dip" 
+			android:layout_height="fill_parent" 
+			android:layout_marginLeft="488dip" 
+			android:visibility="visible"></TableRow>
+		<TextView 
+			android:id="@+id/logoutText" 
+			android:textColor="@color/white"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text="Logout"
+			android:textSize="9sp" 
+			android:layout_alignRight="@+id/homeLogoutButton" 
+			android:layout_marginLeft="15dip" 
+			android:layout_marginRight="-2dip"></TextView>
+		<Button android:id="@+id/homeLogoutButton"
+			android:layout_alignParentRight="true" 
+			android:background="@drawable/logout"
+			android:layout_marginRight="10dip" 
+			android:layout_height="23dip"
+			android:layout_width="23dip" 
+			android:layout_marginTop="12dip"></Button>
+	</RelativeLayout>
+	<TableRow 
+
+		android:layout_width="fill_parent"
+		android:layout_height="1dip" 
+		android:background="@color/lightGreen">
+	</TableRow>
+	<RelativeLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:layout_marginTop="55dip">
+		<TextView android:layout_marginTop="4dip" 
+			android:text="Collaborators" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:textColor="@color/black" 
+			android:layout_below="@+id/collabButton" 
+			android:layout_marginLeft="321dip"></TextView>
+		<Button android:background="@drawable/collaboratorsbutton" 
+			android:layout_marginLeft="330dip" 
+			android:id="@+id/collabButton" 
+			android:layout_alignParentTop="true" 
+			android:layout_height="65dip" 
+			android:layout_marginTop="8dip" 
+			android:layout_width="72dip"></Button>
+		<Button android:background="@drawable/projectsbutton" 
+			android:layout_width="77dip" 
+			android:layout_height="77dip" 
+			android:id="@+id/projButton" 
+			android:layout_alignParentTop="true" 
+			android:layout_marginLeft="130dip"></Button>
+		<TextView android:layout_marginLeft="14dip" 
+			android:text="Projects" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:textColor="@color/black" 
+			android:layout_below="@+id/projButton" 
+			android:layout_alignLeft="@+id/projButton" 
+			android:layout_alignRight="@+id/projButton"></TextView>
+	</RelativeLayout>
+</LinearLayout>

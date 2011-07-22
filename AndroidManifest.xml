@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.coagmento.mobile"
+      xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.3" android:versionCode="4">
+    <uses-sdk android:minSdkVersion="4" minSdkVersion="4"/>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <supports-screens android:largeScreens="true" android:smallScreens="false" android:normalScreens="true" android:debuggable="false" android:resizeable="true"></supports-screens>
+    
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    
+        <activity android:name=".Coagmento"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+                <activity android:name="Home"
+                  android:label="">
+            <intent-filter>
+                <action android:name="android.intent.action.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name="Collaborators"
+                  android:label="">
+            <intent-filter>
+                <action android:name="android.intent.action.COLLABORATORS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name="Projects"
+                  android:label="">
+            <intent-filter>
+                <action android:name="android.intent.action.PROJECTLIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="ProjectItems"
+                  android:label="">
+            <intent-filter>
+                <action android:name="android.intent.action.PROJECTITEMS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+		<activity android:name="ProjectBookmarks"
+                  android:label="">
+            <intent-filter>
+                <action android:name="android.intent.action.PROJECTBOOKMARKS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="ProjectNotes"
+                  android:label="">
+            <intent-filter>
+                <action android:name="android.intent.action.PROJECTNOTES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="ProjectSearches"
+                  android:label="">
+            <intent-filter>
+                <action android:name="android.intent.action.PROJECTSEARCHES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="ProjectSnippets"
+                  android:label="">
+            <intent-filter>
+                <action android:name="android.intent.action.PROJECTSNIPPETS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name="ProjectChat"
+                  android:label="">
+            <intent-filter>
+                <action android:name="android.intent.action.PROJECTCHAT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

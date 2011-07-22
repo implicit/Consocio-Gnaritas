@@ -1,0 +1,194 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="@color/white">
+	<RelativeLayout android:id="@+id/widget86"
+		android:layout_width="fill_parent" 
+		android:layout_height="40dip" android:background="@color/random">
+		<ImageView android:id="@+id/imageView1"
+			android:layout_alignParentLeft="true" 
+			android:layout_width="32dip" 
+			android:layout_marginLeft="5dip" 
+			android:layout_height="32dip" 
+			android:layout_marginTop="4dip" 
+			android:background="@drawable/projectitems"></ImageView>
+		<TextView android:id="@+id/textView1"
+			android:layout_width="wrap_content" 
+			android:layout_toRightOf="@+id/imageView1"
+			android:layout_alignTop="@+id/imageView1" 
+			android:layout_alignBottom="@+id/imageView1"
+			android:layout_marginLeft="3dip" 
+			android:textSize="15sp" 
+			android:layout_height="wrap_content" 
+			android:width="55dip" 
+			android:textColor="@color/white" 
+			android:layout_marginTop="4dip" 
+			android:text="C-Space"></TextView>
+		<TableRow android:id="@+id/tableRow3"
+			android:background="@color/lightGreen"
+			android:layout_width="1dip" 
+			android:visibility="visible"
+			android:layout_height="fill_parent" 
+			android:layout_marginLeft="440dip"></TableRow>
+		<Button 
+			android:layout_alignParentRight="true" 
+			android:layout_centerHorizontal="true" 
+			android:layout_marginRight="54dip" 
+			android:layout_height="29dip" 
+			android:layout_width="29dip" 
+			android:layout_marginTop="4dip" 
+			android:background="@drawable/homebutton" 
+			android:id="@+id/projitemshomeButton"></Button>
+		<TableRow android:id="@+id/tableRow4"
+			android:background="@color/lightGreen"
+			android:layout_width="1dip" 
+			android:visibility="visible"
+			android:layout_height="fill_parent" 
+			android:layout_marginLeft="490dip"></TableRow>
+		<Button android:background="@drawable/refreshbutton"
+			android:layout_alignParentRight="true" 
+			android:layout_marginRight="5dip" 
+			android:layout_height="29dip" 
+			android:layout_width="29dip" 
+			android:layout_marginTop="4dip" 
+			android:id="@+id/projitemsRefreshButton"></Button>
+	</RelativeLayout>
+	<TableRow android:id="@+id/tableRow2" 
+		android:layout_width="fill_parent"
+		android:background="@color/lightGreen" 
+		android:layout_height="1dip"></TableRow>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:orientation="vertical" 
+		android:layout_height="fill_parent">
+
+		<LinearLayout 
+			android:id="@+id/widget90"
+			android:padding="10dp" 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent" 
+			android:layout_marginTop="22dip" 
+			android:layout_marginLeft="10dip">
+		<TableLayout android:id="@+id/widget94"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" 
+			android:layout_width="168dip" 
+			android:layout_marginLeft="20dip">
+			<Button 
+				android:id="@+id/bookmarks" 
+				android:layout_marginRight="70dp"
+				android:layout_marginLeft="45dip" 
+				android:background="@drawable/bookmarksbutton" 
+				android:layout_width="wrap_content" 
+				android:layout_height="50dip">
+			</Button>
+			<TextView android:id="@+id/numBookmarks" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:textColor="@color/black" 
+				android:layout_marginLeft="30dip" 
+				android:text="Bookmarks">
+			</TextView>
+		</TableLayout>
+		<TableLayout 
+			android:id="@+id/widget95"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_width="162dip" 
+			android:layout_marginLeft="-20dip" 
+			android:layout_marginRight="-11dip">
+			<Button 
+				android:id="@+id/snippets" 
+				android:layout_width="wrap_content"
+				android:layout_marginRight="60dp" 
+				android:background="@drawable/snipsbutton" 
+				android:layout_height="50dip" 
+				android:layout_marginLeft="50dip">
+			</Button>
+			<TextView 
+				android:id="@+id/numSnippets" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:textColor="@color/black"
+				android:text="Snippets" 
+				android:layout_marginLeft="40dip" 
+				android:layout_marginRight="25dip">
+			</TextView>
+		</TableLayout>
+		<TableLayout android:layout_width="168dip" 
+			android:id="@+id/widget97" 
+			android:orientation="vertical" 
+			android:layout_height="wrap_content">
+			<Button android:layout_width="wrap_content" 
+				android:background="@drawable/searchesbutton" 
+				android:layout_marginRight="73dip" 
+				android:layout_marginLeft="45dip" 
+				android:id="@+id/searches" 
+				android:layout_height="50dip"></Button>
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:text="Searches" 
+				android:id="@+id/numSearches" 
+				android:layout_marginLeft="40dp" 
+				android:textColor="@color/black" 
+				android:layout_height="wrap_content"></TextView>
+		</TableLayout>
+	</LinearLayout>
+<LinearLayout android:id="@+id/widget91"
+		android:layout_width="fill_parent" 
+		android:padding="10dip" 
+		android:layout_marginTop="15dip" 
+		android:layout_height="fill_parent" 
+		android:layout_marginLeft="10dip">
+		<TableLayout 
+			android:id="@+id/widget96"
+			android:orientation="vertical" 
+			android:layout_height="wrap_content" 
+			android:layout_width="162dip" 
+			android:layout_marginLeft="20dip">
+			<Button android:id="@+id/notes" 
+				android:layout_width="wrap_content"
+				android:background="@drawable/notesbutton"
+				android:layout_marginLeft="45dp" 
+				android:layout_marginRight="66dip" 
+				android:layout_height="50dip">
+			</Button>
+			<TextView android:id="@+id/numNotes" 
+				android:layout_height="wrap_content" android:text="Notes"
+				android:textColor="@color/black" 
+				android:layout_marginLeft="49dp" 
+				android:layout_width="wrap_content" 
+				android:layout_marginRight="40dip">
+			</TextView>
+		</TableLayout>
+		<TableLayout 
+			android:layout_width="168dip" 
+			android:id="@+id/widget98" 
+			android:orientation="vertical" 
+			android:layout_height="wrap_content" 
+			android:layout_marginLeft="-12dip" 
+			android:layout_marginRight="-11dip">
+			<Button android:layout_width="wrap_content" 
+				android:background="@drawable/chatbutton" 
+				android:layout_marginRight="70dip" 
+				android:id="@+id/chat" 
+				android:layout_height="50dip" 
+				android:layout_marginLeft="46dip"></Button>
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:text="Chat" 
+				android:id="@+id/widget112" 
+				android:layout_marginLeft="52dip" 
+				android:textColor="@color/black" 
+				android:layout_height="wrap_content"></TextView>
+		</TableLayout>
+		<TableLayout 
+			android:layout_width="164dip" 
+			android:id="@+id/widget99" 
+			android:orientation="vertical" 
+			android:layout_height="wrap_content" 
+			android:layout_marginLeft="-15dip">
+		</TableLayout>
+	</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
