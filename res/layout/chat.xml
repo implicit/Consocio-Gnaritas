@@ -55,7 +55,7 @@
 			android:layout_height="fill_parent" 
 			android:layout_marginLeft="275dip"></TableRow>
 		<Button 
-			android:background="@drawable/back"
+			android:background="@drawable/backbutton"
 			android:layout_alignParentRight="true" 
 			android:id="@+id/chatBackButton" 
 			android:layout_marginRight="9dip" 
